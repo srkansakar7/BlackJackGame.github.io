@@ -1,0 +1,66 @@
+fieldset {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin:auto;
+  }
+  
+  legend {
+    background-color: gray;
+    color: gold;
+    padding: 10px 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 35px;   
+  }
+
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkolivegreen;
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+#Player-el{
+  display: inline;
+}
+
+#Money-el{
+  display: inline;
+}
+
+#Status-div{
+  overflow: hidden;
+
+}
+#hold-el{
+  display: none;
+  margin-left: 50px;
+}
+
+#restart-el{
+  display: none;
+  margin-left: 50px;
+}
+#won-el{
+  display: none;
+  margin-left: 50px;
+}
